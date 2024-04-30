@@ -1,0 +1,25 @@
+2024-04-30 07:31:17,073 - INFO - Dataset generator started & config loaded!
+2024-04-30 07:31:17,073 - DEBUG - Input folder set: input/ && Output folder set: output/
+2024-04-30 07:31:17,074 - DEBUG - Loading convert jobs...
+2024-04-30 07:31:17,118 - INFO - Running message modification attacks in single process mode
+2024-04-30 07:31:17,122 - INFO - Processing trace: S-1-1-orig (S-1-1)
+2024-04-30 07:31:17,304 - DEBUG - TraceManager: length of the trace is: 30.08231
+2024-04-30 07:31:17,308 - DEBUG - Processing benign file: output/S-1-1/S-1-1-benign.log
+2024-04-30 07:31:18,806 - DEBUG - Calculating statistics!
+2024-04-30 07:31:18,844 - DEBUG - Starting infection sequence...
+2024-04-30 07:31:18,846 - INFO - Infecting trace S-1-1 with message modification attack. Creating: S-1-1-malicious-CONST-msg-mod-0x410-0.4-0.6
+2024-04-30 07:31:18,846 - DEBUG - Creating: output/S-1-1/S-1-1-malicious-CONST-msg-mod-0x410-0.4-0.6.log
+2024-04-30 07:31:19,202 - DEBUG - Modifying message data to this malicious value: 37.89
+2024-04-30 07:31:19,205 - DEBUG - First attack time: 12.091016
+2024-04-30 07:31:19,206 - DEBUG - Last attack time: 17.991966
+2024-04-30 07:31:20,159 - DEBUG - Calculating statistics!
+2024-04-30 07:31:20,221 - INFO - Infecting trace S-1-1 with double message modification attack. Creating: S-1-1-malicious-DOUBLE-msg-mod-0x110-NEG_OFFSET-0.4-0.6-0x410-NEG_OFFSET-0.4-0.6
+2024-04-30 07:31:20,222 - DEBUG - Creating: output/S-1-1/S-1-1-malicious-DOUBLE-msg-mod-0x110-NEG_OFFSET-0.4-0.6-0x410-NEG_OFFSET-0.4-0.6.log
+2024-04-30 07:31:20,719 - DEBUG - Modifying message data: offsetting it with this malicious value: [7, 49]
+2024-04-30 07:31:20,725 - DEBUG - First attack time: 12.040882
+2024-04-30 07:31:20,725 - DEBUG - Last attack time: 18.041909
+2024-04-30 07:31:21,149 - DEBUG - Modifying message data: offsetting it with this malicious value: [3, 41]
+2024-04-30 07:31:21,155 - DEBUG - First attack time: 12.091016
+2024-04-30 07:31:21,155 - DEBUG - Last attack time: 17.991966
+2024-04-30 07:31:21,964 - DEBUG - Calculating statistics!
+2024-04-30 07:31:22,012 - INFO - Data generation completed.

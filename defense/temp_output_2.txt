@@ -1,0 +1,227 @@
+../attacker/output/S-1-1/S-1-1-malicious-DOUBLE-msg-mod-0x110-NEG_OFFSET-0.4-0.6-0x410-NEG_OFFSET-0.4-0.6.log
+
+Reading in ../attacker/output/S-1-1/S-1-1-malicious-DOUBLE-msg-mod-0x110-NEG_OFFSET-0.4-0.6-0x410-NEG_OFFSET-0.4-0.6.log.tsv...
+           id  dlc   b0   b1   b2   b3   b4   b5   b6   b7
+time                                                      
+0.01072   288    8    0   50   51   40   22   78  112    0
+0.01097   416    8    0   12   48   97    0    0    0    0
+0.01146   320    8  128    3   32  252  224    0    0    0
+0.01169   640    8    3  153    3  152    3  155    3  158
+0.01455   384    6  160   75  255  232  252    0    0    0
+...       ...  ...  ...  ...  ...  ...  ...  ...  ...  ...
+30.07521  384    6  160  111  255   88  104    0    0    0
+30.08113  320    8  131    3   32  252  221    0    0    0
+30.08130  640    8    3  189    3  183    3  184    3  174
+30.08210  272    8    2   33   64   28    0   28   28    0
+30.08231  288    8    0   53   67   79   21   79   16    0
+
+[17928 rows x 10 columns]
+
+0.15683460235595703 seconds to import and format raw data into a DataFrame
+
+0.21869301795959473 seconds to produce arbitration ID dictionary, boolean matrices, and TANGs
+
+			##### BEGINNING LEXICAL ANALYSIS #####
+
+0.0011408329010009766 seconds to tokenize the arbitration ID dictionary using TANGs
+{288: <ArbID.ArbID object at 0x7f23ddacb490>, 416: <ArbID.ArbID object at 0x7f23ddb8f0d0>, 320: <ArbID.ArbID object at 0x7f23de0ac390>, 640: <ArbID.ArbID object at 0x7f23ddc2cf90>, 384: <ArbID.ArbID object at 0x7f23dd797850>, 272: <ArbID.ArbID object at 0x7f23dd624390>, 656: <ArbID.ArbID object at 0x7f23dd6c7c10>, 899: <ArbID.ArbID object at 0x7f23dd605250>, 769: <ArbID.ArbID object at 0x7f23dd604e90>, 896: <ArbID.ArbID object at 0x7f23ddb6fad0>, 897: <ArbID.ArbID object at 0x7f23dd901dd0>, 1040: <ArbID.ArbID object at 0x7f23dd8f68d0>, 768: <ArbID.ArbID object at 0x7f23dd607910>, 1296: <ArbID.ArbID object at 0x7f23dd62bc10>, 661: <ArbID.ArbID object at 0x7f23dd62bd50>, 1088: <ArbID.ArbID object at 0x7f23dd62bd10>, 1184: <ArbID.ArbID object at 0x7f23dd63e090>, 1329: <ArbID.ArbID object at 0x7f23dd63e650>}
+In signal:  288
+start index:  0
+stop index:  19
+In signal:  288
+start index:  20
+stop index:  31
+In signal:  288
+start index:  32
+stop index:  63
+In signal:  320
+start index:  0
+stop index:  7
+In signal:  320
+start index:  8
+stop index:  39
+In signal:  320
+start index:  40
+stop index:  63
+In signal:  640
+start index:  0
+stop index:  15
+In signal:  640
+start index:  16
+stop index:  31
+In signal:  640
+start index:  32
+stop index:  47
+In signal:  640
+start index:  48
+stop index:  63
+In signal:  384
+start index:  0
+stop index:  12
+In signal:  384
+start index:  13
+stop index:  14
+In signal:  384
+start index:  15
+stop index:  36
+In signal:  384
+start index:  37
+stop index:  38
+In signal:  384
+start index:  39
+stop index:  47
+In signal:  272
+start index:  0
+stop index:  19
+In signal:  272
+start index:  20
+stop index:  23
+In signal:  272
+start index:  24
+stop index:  63
+In signal:  656
+start index:  0
+stop index:  8
+In signal:  656
+start index:  9
+stop index:  24
+In signal:  656
+start index:  25
+stop index:  40
+In signal:  656
+start index:  41
+stop index:  56
+In signal:  656
+start index:  57
+stop index:  63
+In signal:  896
+start index:  0
+stop index:  1
+In signal:  896
+start index:  2
+stop index:  3
+In signal:  896
+start index:  4
+stop index:  63
+In signal:  897
+start index:  0
+stop index:  47
+In signal:  897
+start index:  48
+stop index:  63
+In signal:  1040
+start index:  0
+stop index:  21
+In signal:  1040
+start index:  22
+stop index:  23
+In signal:  1040
+start index:  24
+stop index:  32
+In signal:  1040
+start index:  33
+stop index:  38
+In signal:  1040
+start index:  39
+stop index:  48
+In signal:  1040
+start index:  49
+stop index:  54
+In signal:  1040
+start index:  55
+stop index:  63
+In signal:  768
+start index:  0
+stop index:  54
+In signal:  768
+start index:  55
+stop index:  63
+In signal:  1296
+start index:  0
+stop index:  15
+In signal:  1296
+start index:  16
+stop index:  23
+In signal:  1296
+start index:  24
+stop index:  63
+In signal:  661
+start index:  0
+stop index:  18
+In signal:  661
+start index:  19
+stop index:  31
+
+0.2786073684692383 seconds to generate signals and their statistics using token compositions.
+<PipelineTimer.PipelineTimer object at 0x7f23ddb86ed0>
+{288: {(288, 0, 19): <Signal.Signal object at 0x7f23dd8d7cd0>, (288, 20, 31): <Signal.Signal object at 0x7f23de0d9590>, (288, 32, 63): <Signal.Signal object at 0x7f23dd63fb10>}, 320: {(320, 0, 7): <Signal.Signal object at 0x7f23dd6408d0>, (320, 8, 39): <Signal.Signal object at 0x7f23dd70c8d0>, (320, 40, 63): <Signal.Signal object at 0x7f23dd4ac410>}, 640: {(640, 0, 15): <Signal.Signal object at 0x7f23dd63f790>, (640, 16, 31): <Signal.Signal object at 0x7f23dd63c450>, (640, 32, 47): <Signal.Signal object at 0x7f23dd63dad0>, (640, 48, 63): <Signal.Signal object at 0x7f23dd4ac290>}, 384: {(384, 0, 12): <Signal.Signal object at 0x7f23dd4acb90>, (384, 13, 14): <Signal.Signal object at 0x7f23dd4ac750>, (384, 15, 36): <Signal.Signal object at 0x7f23dd640d50>, (384, 37, 38): <Signal.Signal object at 0x7f23dd641050>, (384, 39, 47): <Signal.Signal object at 0x7f23dd699310>}, 272: {(272, 0, 19): <Signal.Signal object at 0x7f23dd640f90>, (272, 20, 23): <Signal.Signal object at 0x7f23dd641690>, (272, 24, 63): <Signal.Signal object at 0x7f23dd65dd10>}, 656: {(656, 0, 8): <Signal.Signal object at 0x7f23dd6a4450>, (656, 9, 24): <Signal.Signal object at 0x7f23dd645490>, (656, 25, 40): <Signal.Signal object at 0x7f23dd6a4790>, (656, 41, 56): <Signal.Signal object at 0x7f23dd6a4bd0>, (656, 57, 63): <Signal.Signal object at 0x7f23dd6a4f90>}, 896: {(896, 0, 1): <Signal.Signal object at 0x7f23dd6a5010>, (896, 2, 3): <Signal.Signal object at 0x7f23dd6a5350>, (896, 4, 63): <Signal.Signal object at 0x7f23dd646650>}, 897: {(897, 0, 47): <Signal.Signal object at 0x7f23dd6442d0>, (897, 48, 63): <Signal.Signal object at 0x7f23dd644890>}, 1040: {(1040, 0, 21): <Signal.Signal object at 0x7f23dd644990>, (1040, 22, 23): <Signal.Signal object at 0x7f23dd645290>, (1040, 24, 32): <Signal.Signal object at 0x7f23dd6a7f10>, (1040, 33, 38): <Signal.Signal object at 0x7f23dd6458d0>, (1040, 39, 48): <Signal.Signal object at 0x7f23dd6a4e50>, (1040, 49, 54): <Signal.Signal object at 0x7f23dd645e90>, (1040, 55, 63): <Signal.Signal object at 0x7f23dd669110>}, 768: {(768, 0, 54): <Signal.Signal object at 0x7f23dd646690>, (768, 55, 63): <Signal.Signal object at 0x7f23dd6464d0>}, 1296: {(1296, 0, 15): <Signal.Signal object at 0x7f23dd66a1d0>, (1296, 16, 23): <Signal.Signal object at 0x7f23dd6a59d0>, (1296, 24, 63): <Signal.Signal object at 0x7f23dd6a6c10>}, 661: {(661, 0, 18): <Signal.Signal object at 0x7f23dd6a5cd0>, (661, 19, 31): <Signal.Signal object at 0x7f23dd6a60d0>}}
+Plotting Arb ID 288 (0x120)
+	Complete...
+Plotting Arb ID 320 (0x140)
+	Complete...
+Plotting Arb ID 640 (0x280)
+	Complete...
+Plotting Arb ID 384 (0x180)
+	Complete...
+Plotting Arb ID 272 (0x110)
+	Complete...
+Plotting Arb ID 656 (0x290)
+	Complete...
+Plotting Arb ID 896 (0x380)
+	Complete...
+Plotting Arb ID 897 (0x381)
+	Complete...
+Plotting Arb ID 1040 (0x410)
+	Complete...
+Plotting Arb ID 768 (0x300)
+	Complete...
+Plotting Arb ID 1296 (0x510)
+	Complete...
+Plotting Arb ID 661 (0x295)
+	Complete...
+
+11.066902160644531 seconds to plot and save the Signals and TANGs by Arb ID
+
+			##### BEGINNING SEMANTIC ANALYSIS #####
+
+0.0796060562133789 seconds to perform label propagation.
+
+
+Plotting cluster 0 with 2 signals.
+	Complete...
+Plotting cluster 1 with 2 signals.
+	Complete...
+Plotting cluster 2 with 3 signals.
+	Complete...
+
+1.9039580821990967 seconds to plot and save the clusters.
+
+Dumping arb ID dictionary to pickleArbIDs.p
+	Complete...
+
+Dumping J1979 dictionary to pickleJ1979.p
+	Complete...
+
+Dumping signal dictionary to pickleSignals.p
+	Complete...
+
+Dumping signal subset list to pickleSubset.p
+	Complete...
+
+Dumping subset correlation matrix to subset_correlation_matrix.csv
+	Complete...
+
+Dumping J1979 correlation DataFrame to pickleJ1979_correlation.p
+	Complete...
+
+Dumping cluster dictionary to pickleClusters.p
+	Complete...
+
+Dumping complete signals DataFrame to pickleAllSignalsDataFrame.p
+	Complete...
+
+Dumping complete correlation matrix to complete_correlation_matrix.csv
+	Complete...
+
+Dumping pipeline timer to pickleTimer.p
+	Complete...
