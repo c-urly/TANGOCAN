@@ -19,6 +19,7 @@ We can do Double or CONST message injection and modification and get a compromis
 
 # Defense
 For defense part we use the benign and malicious CAN logs generated in attacker/output with pipeline/Main.py. Script description is given in https://github.com/brent-stone/CAN_Reverse_Engineering.
+You have to manually give path to the CAN log file.
 
 python3 Pipeline/Main.py --can-utils --filename  ../attacker/output/S-1-1/S-1-1-malicious-DOUBLE-msg-mod-0x110-NEG_OFFSET-0.4-0.6-0x410-NEG_OFFSET-0.4-0.6.log 
 
